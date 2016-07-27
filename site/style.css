@@ -1,0 +1,38 @@
+
+#top{
+  color: blue; 
+  font-size: 30px;
+}
+
+body{
+  border-style:double outset;
+  border-color:rgb(160,160,160);
+}
+
+h1,h2,h3,h4{
+  color: green; 
+  font-size: 30px;
+}
+
+header.logo{
+  margin: 5%;
+}
+
+/* Styles on Link */
+#Content li{
+  list-style: none;
+}
+
+#Content a:link, a:visited{
+  text-decoration: none;
+  margin:10px;
+  border: 2px none gray;
+  display:block;
+  width:250px;
+  color:black;
+}
+
+#Content a:hover, a:active{
+  background-color:gray;
+  color:purple;
+}
