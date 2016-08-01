@@ -22,12 +22,22 @@ header.logo{
   margin: 5%;
 }
 
+/* Table Style */
+table th{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:25px;
+  text-transform:none;
+  padding-bottom:20px;
+  padding-right: 30px;
+}
+
 /* Styles on Link */
 #Content li{
   list-style: none;
+  font-size: 20px;
 }
 
-#section3 #Content a:link, a:visited{
+#Content a:link, a:visited{
   text-decoration: none;
   margin:10px;
   border: 2px none gray;
@@ -39,4 +49,17 @@ header.logo{
 #Content a:hover, a:active{
   background-color:gray;
   color:purple;
+}
+/* Email to support group */
+footer a{
+  text-decoration: none;
+}
+/* Gallery */
+#section3 a{
+  text-decoration: none;
+}
+
+/* Back To Top */
+div a{
+  text-decoration: none;
 }
