@@ -29,6 +29,8 @@ table th{
   text-transform:none;
   padding-bottom:20px;
   padding-right: 30px;
+  width:60px;
+  box-sizing: border-box;
 }
 
 /* Styles on Link */
@@ -56,6 +58,10 @@ footer a{
 }
 /* Gallery */
 #section3 a{
+  text-decoration: none;
+}
+/* Form */
+#section4 a{
   text-decoration: none;
 }
 
