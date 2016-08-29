@@ -4,6 +4,12 @@
   font-size: 30px;
 }
 
+/* CSS Layout used here */
+#map{
+    position: relative;
+    left: 30%;
+}
+
 body{
   border-style:double outset;
   border-color:rgb(160,160,160);
@@ -44,7 +50,7 @@ table th{
   margin:10px;
   border: 2px none gray;
   display:block;
-  width:250px;
+  width:300px;
   color:blue;
 }
 
